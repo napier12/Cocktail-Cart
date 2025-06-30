@@ -1,0 +1,54 @@
+<!-- @format -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cocktails</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #f9f9f9;
+      padding: 30px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .box {
+      width: 250px;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      cursor: pointer;
+    }
+
+    .box img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .text {
+      padding: 15px;
+      min-height: 120px;
+    }
+  </style>
+    <script src="jquery-3.7.1.js"></script>
+    <script src="cocktail.js" defer></script>
+  </head>
+<body>
+
+<h1>Cocktail Menu</h1>
+<div class="container" id="cardContainer"></div>
+<script>
+    
+</script>
+</body>
+</html>
